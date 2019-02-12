@@ -1,6 +1,6 @@
 # Software
 * Written by Dong Tian @ MERL
-* Modified by Maurice Quach @ L2S, CNRS, CentraleSup ́elec, Universit ́e Paris-Saclay
+* Modified by Maurice Quach @ L2S, CNRS, CentraleSupélec, Université Paris-Saclay
 
 This software is written to compute geometric distortions in a point
 cloud, including point-to-point and point-to-plane.

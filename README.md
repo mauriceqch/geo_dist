@@ -1,9 +1,22 @@
 # Software
 * Written by Dong Tian @ MERL
-* Modified by Maurice Quach @ L2S
+* Modified by Maurice Quach @ L2S, CNRS, CentraleSup ́elec, Universit ́e Paris-Saclay
 
 This software is written to compute geometric distortions in a point
 cloud, including point-to-point and point-to-plane.
+
+If you use this code for research, please cite:
+
+	@inproceedings{Tian_2017,
+		doi = {10.1109/icip.2017.8296925},
+		url = {https://doi.org/10.1109%2Ficip.2017.8296925},
+		year = 2017,
+		month = {sep},
+		publisher = {{IEEE}},
+		author = {Dong Tian and Hideaki Ochimizu and Chen Feng and Robert Cohen and Anthony Vetro},
+		title = {Geometric distortion metrics for point cloud compression},
+		booktitle = {2017 {IEEE} International Conference on Image Processing ({ICIP})}
+	}
 
 # Modifications
 * Changed Readme to Markdown format
@@ -101,3 +114,4 @@ The executable pc_error_d would be produced under ./run folder.
 		### Symmetric,rmsF,p2plane,0.000471006
 		### Symmetric,rmsFPSNR,p2plane,33.2869
 	Job done! 0 seconds elapsed (excluding the time to load the point clouds).
+	

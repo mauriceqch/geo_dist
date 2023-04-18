@@ -26,10 +26,10 @@ If you use this code for research, please cite:
 ## PCL required
 Tested with PCL 1.8. May work with some older versions, but not tested yet.
 ## Compile under Linux, follow the steps:
-	cd ./source
-	mkdir build; cd build
+	mkdir build
+	cd build
 ### Simple compile
-The executable pc_error would be produced under ./source/build folder.
+The executable pc_error would be produced under ./build folder.
 
 	cmake ..
 	make
